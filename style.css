@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 217, 255);
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+span,a {
+  display: inline-block;
+}
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+.add-products-div, .checkout-form{
+  width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.568);
+  border-radius: 30px;
+  background-image: linear-gradient(rgba(35, 223, 248, 0.815), rgba(0, 255, 242, 0.192));
+  form, .navigate{
+    padding: 20px;
+  }
+}
+.add-products-input, .checkout-products-input{
+  padding: 15px 30px;
+}
+.category-data {
+  margin-top: 20px;
+}
+.category-1-data, .category-2-data{
+  margin-inline: 30px;
+}
+label{
+  margin: 5px;
+}
